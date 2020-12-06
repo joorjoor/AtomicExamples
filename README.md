@@ -6,7 +6,7 @@ It is over here: <a href="https://github.com/joorjoor/AtomicGameEngine">Player a
 
 ##### Discord Chat
 
-[![Electron Discord Invite](https://img.shields.io/discord/772690225776033853?label=Join)](https://discord.com/invite/rx9FDke5BP)
+[![Atomic Game Engine Discord Invite](https://img.shields.io/discord/772690225776033853?color=%237289DA&label=chat&logo=discord&logoColor=white)](https://discord.com/invite/rx9FDke5BP)
 
 [WelcomeScreen]: https://github.com/joorjoor/AtomicExamples/wiki/images/WelcomeScreen.png
 
