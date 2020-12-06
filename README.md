@@ -4,21 +4,9 @@
 
 It is over here: <a href="https://github.com/joorjoor/AtomicGameEngine">Player and Editor Source</a>
 
-##### Website
+##### Discord Chat
 
-<a href="http://atomicgameengine.com">http://www.AtomicGameEngine.com</a>
-
-##### Chat
-
-[![Join the chat at https://gitter.im/AtomicGameEngine/AtomicGameEngine](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AtomicGameEngine/AtomicGameEngine?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-##### Forums
-
-<a href="http://atomicgameengine.com/forum">Atomic Game Engine Forums</a>
-
-##### Twitter
-
-<a href="https://twitter.com/AtomicGEngine">Follow @AtomicGEngine</a>
+[![Electron Discord Invite](https://img.shields.io/discord/772690225776033853?label=Join)](https://discord.com/invite/rx9FDke5BP)
 
 [WelcomeScreen]: https://github.com/joorjoor/AtomicExamples/wiki/images/WelcomeScreen.png
 
