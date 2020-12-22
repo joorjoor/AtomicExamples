@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<scene id="1">
+	<attribute name="Name" value="" />
+	<attribute name="Time Scale" value="1" />
+	<attribute name="Smoothing Constant" value="50" />
+	<attribute name="Snap Threshold" value="5" />
+	<attribute name="Elapsed Time" value="0" />
+	<attribute name="Next Replicated Node ID" value="21637" />
+	<attribute name="Next Replicated Component ID" value="35374" />
+	<attribute name="Next Local Node ID" value="16778808" />
+	<attribute name="Next Local Component ID" value="16777427" />
+	<attribute name="Variables" />
+	<attribute name="Variable Names" value="" />
+	<component type="Octree" id="2" />
+	<component type="DebugRenderer" id="3">
+		<attribute name="Line Antialias" value="true" />
+	</component>
+	<component type="Renderer2D" id="1980" />
+	<component type="PhysicsWorld2D" id="34262">
+		<attribute name="Draw Shape" value="true" />
+		<attribute name="Allow Sleeping" value="true" />
+		<attribute name="Warm Starting" value="true" />
+		<attribute name="Continuous Physics" value="true" />
+		<attribute name="Auto Clear Forces" value="true" />
+	</component>
+	<node id="2">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Zone" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="Zone" id="4">
+			<attribute name="Bounding Box Min" value="-10000 -10000 -10000" />
+			<attribute name="Bounding Box Max" value="10000 10000 10000" />
+			<attribute name="Ambient Color" value="0.4 0.4 0.4 1" />
+		</component>
+	</node>
+	<node id="361">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Camera" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="Camera" id="1973">
+			<attribute name="Near Clip" value="0" />
+			<attribute name="Orthographic" value="true" />
+			<attribute name="Orthographic Size" value="5" />
+			<attribute name="Zoom" value="1.8" />
+		</component>
+		<component type="JSComponent" id="27952">
+			<attribute name="ComponentFile" value="JSComponentFile;Components/Camera.js" />
+		</component>
+		<node id="396">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="plx-1" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="3 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticSprite2D" id="2016">
+				<attribute name="Sprite" value="Sprite2D;Sprites/parallax_background/plx-1.png" />
+				<attribute name="Draw Rectangle" value="-1.92 -1.08 1.92 1.08" />
+				<attribute name="Texture Rectangle" value="1.30208e-07 1 1 2.31481e-07" />
+			</component>
+		</node>
+		<node id="3301">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Player" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-0.689324 -0.338687 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="JSComponent" id="5060">
+				<attribute name="ComponentFile" value="JSComponentFile;Components/Player.js" />
+			</component>
+			<component type="RigidBody2D" id="5527">
+				<attribute name="Body Type" value="Dynamic" />
+				<attribute name="Mass" value="1" />
+			</component>
+			<component type="CollisionBox2D" id="23425">
+				<attribute name="Size" value="0.21 0.36" />
+				<attribute name="Center" value="0.11 -0.17" />
+				<attribute name="Category Bits" value="1" />
+				<attribute name="Mask Bits" value="65535" />
+			</component>
+			<component type="AnimatedSprite2D" id="26447">
+				<attribute name="Layer" value="100" />
+				<attribute name="Speed" value="2.5" />
+				<attribute name="Entity" value="entity_000" />
+				<attribute name="Animation Set" value="AnimationSet2D;Sprites/Chacter/Chacter.scml" />
+				<attribute name="Animation" value="Idle" />
+			</component>
+		</node>
+		<node id="20011">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="Down" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="0 -1.56579 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="2.97503 0.465533 1" />
+			<attribute name="Variables" />
+			<component type="StaticSprite2D" id="32048">
+				<attribute name="Layer" value="1000" />
+				<attribute name="Sprite" value="Sprite2D;Sprites/parallax_background/plx-1.png" />
+				<attribute name="Blend Mode" value="replace" />
+				<attribute name="Color" value="0 0 0 1" />
+				<attribute name="Draw Rectangle" value="-1.92 -1.08 1.92 1.08" />
+				<attribute name="Texture Rectangle" value="1.30208e-07 1 1 2.31481e-07" />
+			</component>
+		</node>
+	</node>
+	<node id="441">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="plx-2" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="StaticSprite2D" id="2024">
+			<attribute name="Layer" value="1" />
+			<attribute name="Sprite" value="Sprite2D;Sprites/parallax_background/plx-2.png" />
+			<attribute name="Draw Rectangle" value="-1.92 -1.08 1.92 1.08" />
+			<attribute name="Texture Rectangle" value="1.30208e-07 1 1 2.31481e-07" />
+		</component>
+		<component type="JSComponent" id="2100">
+			<attribute name="ComponentFile" value="JSComponentFile;Components/Parallax.js" />
+			<attribute name="FieldValues">
+				<variant name="parallaxEffect" type="Float" value="0.4" />
+			</attribute>
+		</component>
+		<node id="445">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="1" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.84 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="PrefabComponent" id="2098">
+				<attribute name="PrefabGUID" value="16ed6808bb54b4fca5f0a0342a9ad0f6" />
+			</component>
+		</node>
+		<node id="470">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="2" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.84 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="PrefabComponent" id="2160">
+				<attribute name="PrefabGUID" value="16ed6808bb54b4fca5f0a0342a9ad0f6" />
+			</component>
+		</node>
+		<node id="20010">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="3" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="7.68 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="PrefabComponent" id="32045">
+				<attribute name="PrefabGUID" value="16ed6808bb54b4fca5f0a0342a9ad0f6" />
+			</component>
+		</node>
+	</node>
+	<node id="446">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="plx-3" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="StaticSprite2D" id="2042">
+			<attribute name="Layer" value="2" />
+			<attribute name="Sprite" value="Sprite2D;Sprites/parallax_background/plx-3.png" />
+			<attribute name="Draw Rectangle" value="-1.92 -1.08 1.92 1.08" />
+			<attribute name="Texture Rectangle" value="1.30208e-07 1 1 2.31481e-07" />
+		</component>
+		<component type="JSComponent" id="2106">
+			<attribute name="ComponentFile" value="JSComponentFile;Components/Parallax.js" />
+			<attribute name="FieldValues">
+				<variant name="parallaxEffect" type="Float" value="0.3" />
+			</attribute>
+		</component>
+		<node id="447">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="1" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.84 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="PrefabComponent" id="2102">
+				<attribute name="PrefabGUID" value="6aef43a60d5cd90c99993e50db87ca3b" />
+			</component>
+		</node>
+		<node id="469">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="2" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.84 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="PrefabComponent" id="2158">
+				<attribute name="PrefabGUID" value="6aef43a60d5cd90c99993e50db87ca3b" />
+			</component>
+		</node>
+		<node id="20009">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="3" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="7.68 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="PrefabComponent" id="32043">
+				<attribute name="PrefabGUID" value="6aef43a60d5cd90c99993e50db87ca3b" />
+			</component>
+		</node>
+	</node>
+	<node id="450">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="plx-4" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="StaticSprite2D" id="2019">
+			<attribute name="Layer" value="3" />
+			<attribute name="Sprite" value="Sprite2D;Sprites/parallax_background/plx-4.png" />
+			<attribute name="Draw Rectangle" value="-1.92 -1.08 1.92 1.08" />
+			<attribute name="Texture Rectangle" value="1.30208e-07 1 1 2.31481e-07" />
+		</component>
+		<component type="JSComponent" id="2112">
+			<attribute name="ComponentFile" value="JSComponentFile;Components/Parallax.js" />
+			<attribute name="FieldValues">
+				<variant name="parallaxEffect" type="Float" value="0.2" />
+			</attribute>
+		</component>
+		<node id="449">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="1" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.84 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="PrefabComponent" id="2107">
+				<attribute name="PrefabGUID" value="0236e72902f5719a557754a343e53895" />
+			</component>
+		</node>
+		<node id="468">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="2" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.84 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="PrefabComponent" id="2156">
+				<attribute name="PrefabGUID" value="0236e72902f5719a557754a343e53895" />
+			</component>
+		</node>
+		<node id="20008">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="3" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="7.68 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="PrefabComponent" id="32041">
+				<attribute name="PrefabGUID" value="0236e72902f5719a557754a343e53895" />
+			</component>
+		</node>
+	</node>
+	<node id="463">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="plx-5" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 -0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="StaticSprite2D" id="2148">
+			<attribute name="Layer" value="4" />
+			<attribute name="Sprite" value="Sprite2D;Sprites/parallax_background/plx-5.png" />
+			<attribute name="Draw Rectangle" value="-1.92 -1.08 1.92 1.08" />
+			<attribute name="Texture Rectangle" value="1.30208e-07 1 1 2.31481e-07" />
+		</component>
+		<component type="JSComponent" id="2149">
+			<attribute name="ComponentFile" value="JSComponentFile;Components/Parallax.js" />
+			<attribute name="FieldValues">
+				<variant name="parallaxEffect" type="Float" value="0.1" />
+			</attribute>
+		</component>
+		<node id="464">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="1" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="-3.84 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="PrefabComponent" id="2150">
+				<attribute name="PrefabGUID" value="b587031547b560cdd2224dd7ba4027fe" />
+			</component>
+		</node>
+		<node id="467">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="2" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="3.84 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="PrefabComponent" id="2155">
+				<attribute name="PrefabGUID" value="b587031547b560cdd2224dd7ba4027fe" />
+			</component>
+		</node>
+		<node id="20005">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="3" />
+			<attribute name="Tags" />
+			<attribute name="Position" value="7.68 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="PrefabComponent" id="32035">
+				<attribute name="PrefabGUID" value="b587031547b560cdd2224dd7ba4027fe" />
+			</component>
+		</node>
+	</node>
+	<node id="2084">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Ground" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="6 -1.09325 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1.02694 1 1" />
+		<attribute name="Variables" />
+		<component type="TileMap2D" id="3825" />
+	</node>
+	<node id="18040">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Ground0" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-2.60797 -1.08383 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="TileMap2D" id="28330">
+			<attribute name="Tmx File" value="TmxFile2D;Sprites/jungle_tileset/ground0.tmx" />
+		</component>
+	</node>
+</scene>

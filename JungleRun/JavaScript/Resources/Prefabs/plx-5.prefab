@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<node id="401">
+	<attribute name="Is Enabled" value="true" />
+	<attribute name="Name" value="plx-5" />
+	<attribute name="Tags" />
+	<attribute name="Position" value="0 0 0" />
+	<attribute name="Rotation" value="1 0 0 0" />
+	<attribute name="Scale" value="1 1 1" />
+	<attribute name="Variables" />
+	<component type="StaticSprite2D" id="2021">
+		<attribute name="Layer" value="4" />
+		<attribute name="Sprite" value="Sprite2D;Sprites/parallax_background/plx-5.png" />
+		<attribute name="Draw Rectangle" value="-1.92 -1.08 1.92 1.08" />
+		<attribute name="Texture Rectangle" value="1.30208e-07 1 1 2.31481e-07" />
+	</component>
+</node>
